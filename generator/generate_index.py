@@ -30,7 +30,7 @@ NO_COMPATIBILITY_DATA = {
     }
 }
 
-VERSION_REGEX = "^v[\d]+\.[\d]+\.[\d]+$"
+VERSION_REGEX = r"^v[\d]+\.[\d]+\.[\d]+$"
 
 
 def main():
