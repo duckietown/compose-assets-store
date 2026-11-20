@@ -1335,6 +1335,19 @@
                         "duckietown",
                         "data"
                     ]
+                },
+                "v1.5.7": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.8"
+                        }
+                    },
+                    "dependencies": [
+                        "duckietown_ros",
+                        "duckietown",
+                        "data"
+                    ]
                 }
             }
         },
@@ -1624,6 +1637,17 @@
                     ]
                 },
                 "v2.2.8": {
+                    "compatibility": {
+                        "compose": {
+                            "maximum": "v2.0.0",
+                            "minimum": "v1.0.0"
+                        }
+                    },
+                    "dependencies": [
+                        "ros"
+                    ]
+                },
+                "v2.2.9": {
                     "compatibility": {
                         "compose": {
                             "maximum": "v2.0.0",
